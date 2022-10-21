@@ -1,0 +1,1 @@
+run node . or node main.js (or whatever starting program is called if changed)
