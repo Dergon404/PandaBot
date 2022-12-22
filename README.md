@@ -8,6 +8,10 @@ Uses Discord Player API:https://discord-player.js.org/docs/main/master/general/w
 
 Currently only tested Youtube videos and streams
 
+<br />
+<br />
+
+### Requirements to run
 Guild ID needs to be changed manually (Client ID as well for a seperate bot)
 
 Create a .env file that has "TOKEN=BOT_TOKEN_HERE", with your bot token
