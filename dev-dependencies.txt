@@ -1,0 +1,31 @@
+node v16.13.1
+discord api v14.6.0
+ffmpeg-static v5.0.1
+*install.js in ffmpeg in node modules if on linux
+
+Linux
+How to run a program in background
+---------------------------------------------
+Step 1) run the program
+
+Step 2) ctrl + z
+
+Step 3) disown %#
+//# - job number
+
+Step 4) kill -CONT ####
+//#### - numbers will be provided at runtime of command
+
+Step 5) Give the bot like 2 - 4 minutes to catch up
+// after the ctrl + z command, the bot's process will
+// be paused until the "KILL" command is entered, 
+// thus the bot will unpaused and have a missing
+// chunk of time to catch up on.
+
+
+How to kill process
+------------------------------------
+Method 1) kill %#
+# -job number
+
+Method 2) bashtop, then kill node
